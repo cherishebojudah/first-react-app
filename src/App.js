@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import ClassComp from './Components/ClassComp';
 import FuncComp from './Components/FuncComp';
-import '../src/App.css'
+import Hello from './Components/Hello';
+import '../src/App.css';
  
 class App extends Component {
 
@@ -14,6 +15,7 @@ class App extends Component {
                 <Header/>
                 <ClassComp/>
                 <FuncComp/>
+                <Hello/>
             </div>
         );
     }
